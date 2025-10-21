@@ -20,8 +20,6 @@ tombolKangen.addEventListener("click", function() {
   // Matikan tombolnya biar tidak bisa diklik lagi
   tombolKangen.disabled = true;
 
-});
-
 // Tambahkan hewan kelinci dan kucing imut
 function createCuteAnimals() {
     // Buat container untuk hewan
@@ -98,3 +96,4 @@ function createCuteAnimals() {
 
 // Jalankan ketika halaman dimuat
 window.addEventListener('load', createCuteAnimals);
+});
